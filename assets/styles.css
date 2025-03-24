@@ -56,3 +56,14 @@ video {
 	outline: 3px solid var(--blue);
 	outline-offset: 3px;
 }
+
+.faq-details{
+	border: solid 1px black;
+	margin: 6px 0;
+	width: fit-content;
+	border-radius: 5px;
+}
+
+.faq-summary{
+	padding: 12px;
+}
