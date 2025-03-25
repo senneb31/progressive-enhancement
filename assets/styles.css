@@ -57,13 +57,18 @@ video {
 	outline-offset: 3px;
 }
 
-.faq-details{
+details{
 	border: solid 1px black;
 	margin: 6px 0;
 	width: fit-content;
 	border-radius: 5px;
 }
 
-.faq-summary{
-	padding: 12px;
+details > summary {
+	padding: 2px 6px;
+	cursor: pointer;
+}
+
+details > p{
+	background-color: #A675F5;
 }
