@@ -7,11 +7,41 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 		<link href="assets/styles.css" rel="stylesheet">
 		<style>
-			/* Schrijf hier gewoon je CSS voor dit component */
+			details{
+				border: solid 1px black;
+				margin: 6px 0;
+				border-radius: 5px;
+				max-width: fit-content;
+			}
 
-			/* Hint: Dit component kun je volledig met HTML en CSS bouwen */
+			.details1:open{
+				background: #A675F5;
+				border: none; 
+				width: 500px;
+			}
 
-			/* Hint: Denk aan de states van het component; deze kan open en dicht zijn */
+			.details2:open{
+				background: #37e6b1;
+				border: none;
+				width: 500px;
+			}
+
+			.details3:open{
+				background: #ffff58;
+				border: none;
+				width: 500px;
+			}
+
+			details > summary {
+				padding: 2px 6px;
+				cursor: pointer;
+				max-width: fit-content;
+			}
+
+			.p-faq{
+				padding: 0 16px;
+			}
+
 		</style>
 	</head>
 	<body>
